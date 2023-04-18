@@ -1,0 +1,138 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+:root{
+    --cor_050: #effefd;
+    --cor_100: #c7fffb;
+    --cor_200: #8ffff8;
+    --cor_300: #4ff9f3;
+    --cor_400: #1ce5e5;
+    --cor_500: #03d0d3;
+    --cor_600: #009ca2;
+    --cor_700: #047b81;
+    --cor_800: #096066;
+    --cor_900: #0d5054;
+    --cor_950: #002e33;
+}
+
+body{
+    background-color: var(--cor_050);
+   
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    
+}
+
+section{
+    display: flex;
+    width: 85%;
+    flex-direction: column;
+    /* border: solid 2px black; */
+}
+
+#galeria{
+     display: flex;
+     align-items: center;
+}
+
+#sobre :nth-child(1){
+ 
+
+}
+
+#sobre p{
+    text-align: justify;
+}
+
+#localizacao :nth-child(1){
+    margin-bottom: 15px;
+
+}
+
+
+section p{
+    margin-top: 10px;
+    text-align: justify;
+}
+
+
+.container-galeria{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 10px;
+}
+
+.container-galeria img{
+    max-width: 500px;
+    margin: 10px;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    height: 70px;
+    background-color: var(--cor_700);
+    margin-bottom: 30px;
+}
+
+header h1{
+    color: var(--cor_050);
+    align-self: center;
+}
+
+nav{
+    display: flex;
+    align-items: end;
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+    gap: 12px;
+    margin-bottom: 5px;
+    margin-right: 10px;
+}
+
+nav ul li{
+    padding: 5px 10px;
+    border-radius: 3px;;
+    background-color: var(--cor_050);
+}
+
+nav ul a{
+    text-decoration: none;
+    font-size: 1.1rem;
+}
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 40px;
+    background-color: var(--cor_800);
+    height: 100px;
+    color: var(--cor_050);
+}
+
+footer a {
+    text-decoration: none;
+    color: var(--cor_100);
+}
+
+footer p:nth-child(1) {
+    margin-left: 15px;
+}
+
+footer p:nth-child(2) {
+    margin-right: 15px;
+}
