@@ -14,6 +14,9 @@ A cidade do Recife é uma das mais famosas do Nordeste, ela possui diversos pont
 
  1. crie um link que irá direcionar para essa nova página; 
  2. adicione imagens sobre os lugares. 
+ 
+ ## Atividade 3 
+ Agora que já aprendeu as propriedades básicas da CSS, é possível aprimorar a atividade anterior aplicando estilos para a página que você já criou.
 
  ### Dicas 
  Baixe a pasta imgs e o arquivo index.html para a mesma pasta, abra com o vsCode e depoi utilize o live server (extensão do vsCode) para ver o site funcionando localmente.
