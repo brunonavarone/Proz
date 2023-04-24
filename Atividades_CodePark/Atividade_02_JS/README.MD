@@ -1,18 +1,16 @@
 # CodePark 
 
 ## Atividade 
-### Tira um print de alguma seção de uma página web na qual você tenha identificado o possível uso do JavaScript para implementar uma funcionalidadeatravés da interação do usuário(em outraspalavras, algo que não daria para fazer apenas com HTML e CSS).
+### Pesquise sobre alguma extensão do VSCodeque seja interessante para usar com os conceitos e ferramentas vistos até o momento, e explique porque escolheu ela. Idealmente, procure extensões para facilitar ou automatizar a escrita de arquivos HTML e CSS, porém, pode considerar também o desenvolvimentos de projetos web com VSCode de forma geral, ou a escrita de arquivos JavaScript se se sentir à vontade.
 
-### Sem a necessidade de inspecionar o elemento web, descreva da forma mais detalhada possível o comportamento que leva você a acreditar que seria necessário o uso de JS. 
+![image](https://raw.githubusercontent.com/brunonavarone/Proz/main/Atividades_CodePark/Atividade_02_JS/extensao.png)
 
-![image](https://raw.githubusercontent.com/brunonavarone/Proz/main/Atividades_CodePark/Atividade_01_JS/imagem_ava_descricao.png)
+A extensão Prettier Formatter for Visual Studio Code é uma ferramenta de formatação de código que ajuda os desenvolvedores a escreverem um código mais organizado e legível. Ela é compatível com várias linguagens de programação, incluindo JavaScript, HTML, CSS, JSON, TypeScript e muitas outras.
 
-A parte selecionada de vermelho na imagem mostra alguns possíveis elementos:
+A forma como funciona é bastante simples. Quando você instala a extensão e abre um arquivo em que deseja aplicar a formatação, basta clicar com o botão direito do mouse no editor e selecionar "Format Document" ou usar o atalho de teclado "Shift + Alt + F". Isso fará com que o Prettier analise o código e o formate automaticamente com base em uma série de regras pré-definidas.
 
-* um formulário com 2 inputs: um para usuário e outro para senha
-* uma checkbox para salvar o usuário 
-* um botão de submit (provavelmente)
-* um link para recuperação de senha 
+Essas regras são altamente configuráveis, permitindo que você personalize a forma como o código é formatado para atender às suas necessidades. Por exemplo, você pode definir se deseja usar aspas duplas ou simples para strings, se deseja quebras de linha antes ou depois de determinados operadores e muito mais.
 
-O javascript implementado nessa parte destacada pode funcionar para a validação da entrada do usuário. Assim que o usuário colocar o seu “username”, sua senha e clicar no botão “Acessar”, o javascript vai enviar as informações para o banco de dados com todos os usuários cadastrados. Vai verificar se aquele usuário existe no banco e se a senha desse mesmo usuário é compatível com a que foi digitada. 
-Se as duas validações forem aprovadas, o usuário vai logar no sistema, se não, alguma mensagem de erro vai aparecer especificando o que aconteceu. 
+Os benefícios de usar o Prettier Formatter são vários. Em primeiro lugar, ele ajuda a manter um estilo de código consistente em toda a base de código, independentemente de quantos desenvolvedores estejam trabalhando nela. Isso torna o código mais fácil de entender e manter, reduzindo o tempo necessário para localizar erros ou fazer alterações.
+
+Além disso, o Prettier também pode ajudar a detectar erros de sintaxe que podem ser difíceis de identificar à primeira vista, como por exemplo, um ponto e vírgula faltando ou um parêntese que está em um local errado. Com a formatação automática, esses erros são corrigidos automaticamente, tornando a escrita de código mais eficiente e precisa.
