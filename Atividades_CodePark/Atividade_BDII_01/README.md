@@ -14,5 +14,5 @@ utilize os comandos Joins para realizar consultas nas tabelas.
 
 #### 
 
-Clique [Aqui]() para ver o código!
+Clique [Aqui](https://github.com/brunonavarone/Proz/blob/main/Atividades_CodePark/Atividade_BDII_01/Atividade_BDII_01.sql) para ver o código!
 
