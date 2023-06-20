@@ -4,5 +4,5 @@ Uma loja tem um banco de dados que contém todo o controle de vendas de produtos
 
 #### 
 
-Clique [Aqui]() para ver o código!
+Clique [Aqui](https://github.com/brunonavarone/Proz/blob/main/Atividades_CodePark/Atividade_BDII_04/function.sql) para ver o código!
 
